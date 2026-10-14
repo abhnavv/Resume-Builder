@@ -1,11 +1,18 @@
 import React from 'react'
 import ResumeCreation from './ResumeCreation'
 import { Link } from 'react-router-dom'
+import heroImage from '../assets/tungart7-business-8941853.jpg'
+import section2Image from '../assets/section2image.jpg'
+import section3Image from '../assets/section3grp.jpg'
 
+import profile1 from '../assets/prf1.jpeg'
+import profile2 from '../assets/pf2.jpeg'
+import profile3 from '../assets/pf3.jpeg'
+import profile4 from '../assets/pf4.jpeg'
 function Landing() {
   return (
     <div>
-      <section style={{height:'550px',backgroundImage:"url('./src/assets/tungart7-business-8941853.jpg')",backgroundSize:'cover',backgroundPosition:'center',backgroundAttachment:'fixed'}}>
+      <section style={{height:'550px',backgroundImage:`url(${heroImage})`,backgroundSize:'cover',backgroundPosition:'center',backgroundAttachment:'fixed'}}>
       <div className='row pt-5'>
         <div className='col-12 col-md-4'>
         </div>
@@ -34,11 +41,11 @@ function Landing() {
             </div>
             <div className='col-lg-6 col-md-12' style={{textAlign:'center'}}> 
              
-                <img src="./src/assets/section2image.jpg" alt="" height={400} />
+                <img src={section2Image} alt="" height={400} />
             </div>
         </div>
       </section>
-      <section style={{height:'450px',backgroundImage:"url('/src/assets/section3grp.jpg')",backgroundSize:'cover',backgroundPosition:'top center',backgroundAttachment:'fixed'}}>
+      <section style={{height:'450px',backgroundImage:`url(${section3Image})`,backgroundSize:'cover',backgroundPosition:'top center',backgroundAttachment:'fixed'}}>
         
       </section>
       <section className='container mt-5'>
@@ -52,18 +59,18 @@ function Landing() {
           </div>
           <div className='col-lg-6'>
             <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:'20px'}} className='ms-5'>
-              <img src="./src/assets/prf1.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>    
-              <img src="./src/assets/pf2.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
-              <img src="./src/assets/pf3.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
-              <img src="./src/assets/pf4.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>
-              <img src="./src/assets/prf1.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded' />    
-              <img src="./src/assets/pf2.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
-              <img src="./src/assets/pf3.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
-              <img src="./src/assets/pf4.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>
-              <img src="./src/assets/prf1.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded' />    
-              <img src="./src/assets/pf2.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
-              <img src="./src/assets/pf3.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
-              <img src="./src/assets/pf4.jpeg" alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>              
+              <img src={profile1} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>    
+              <img src={profile2} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
+              <img src={profile3} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
+              <img src={profile4} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>
+              <img src={profile1} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded' />    
+              <img src={profile2} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
+              <img src={profile3} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
+              <img src={profile4} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>
+              <img src={profile1} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded' />    
+              <img src={profile2} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
+              <img src={profile3} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>  
+              <img src={profile4} alt="" style={{width:'100%',height:'140px',objectFit:'cover'}} className='rounded'/>              
             </div>
           </div>
         </div>
