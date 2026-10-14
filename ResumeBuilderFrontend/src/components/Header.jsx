@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
-
+import HeaderLogo from "../assets/headerlogo.jpg"
 function Header() {
   let projectIntro="A Resume Builder App is an essential tool for job seekers looking to create polished and effective resumes. By combining ease of use with professional design options, these apps empower users to present their qualifications confidently and increase their chances of landing job interviews."
   return (
@@ -20,7 +20,7 @@ function Header() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <img src="/src/assets/headerlogo.jpg" alt=""  width={60} />
+            <img src={HeaderLogo} alt=""  width={60} />
           </IconButton>
         
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
